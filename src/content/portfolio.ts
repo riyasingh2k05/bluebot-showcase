@@ -4,7 +4,7 @@
  */
 
 export const portfolio = {
-  name: "Your Name",
+  name: "MR Mohib",
   role: "Robotics & AI Engineer",
   tagline: "I build intelligent machines that move, sense, and think.",
   about:
@@ -57,8 +57,8 @@ export const portfolio = {
   ],
 
   contact: {
-    email: "you@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    github: "https://github.com/yourusername",
+    email: "sr.mohib92@gmail.com",
+    linkedin: "https://www.linkedin.com/in/mohammad-mohib-ali-7b7a22322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    instagram: "https://www.instagram.com/_mohib_sayyed?igsh=MXV5cDQyM2poYWxmMw%3D%3D&utm_source=qr",
   },
 };
