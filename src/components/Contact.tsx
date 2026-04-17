@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Instagram } from "lucide-react";
 import { portfolio } from "@/content/portfolio";
 
 export function Contact() {
   const links = [
     { icon: Mail, label: portfolio.contact.email, href: `mailto:${portfolio.contact.email}` },
     { icon: Linkedin, label: "LinkedIn", href: portfolio.contact.linkedin },
-    { icon: Github, label: "GitHub", href: portfolio.contact.github },
+    { icon: Instagram, label: "Instagram", href: portfolio.contact.instagram },
   ];
 
   return (
