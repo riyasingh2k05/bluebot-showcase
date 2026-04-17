@@ -20,12 +20,19 @@ export function Hero() {
           <p className="mt-6 text-lg text-muted-foreground max-w-md">
             {portfolio.tagline}
           </p>
-          <div className="mt-8 flex gap-4">
+          <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="#projects"
               className="rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-glow)] hover:-translate-y-0.5 transition-all"
             >
               View Projects
+            </a>
+            <a
+              href={portfolio.resumeUrl}
+              download
+              className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary/10 px-6 py-3 text-sm font-semibold text-primary hover:bg-primary/20 hover:-translate-y-0.5 transition-all"
+            >
+              ⬇ Download Resume
             </a>
             <a
               href="#contact"

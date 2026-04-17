@@ -56,6 +56,8 @@ export const portfolio = {
     },
   ],
 
+  resumeUrl: "/resume.pdf",
+
   contact: {
     email: "sr.mohib92@gmail.com",
     linkedin: "https://www.linkedin.com/in/mohammad-mohib-ali-7b7a22322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
